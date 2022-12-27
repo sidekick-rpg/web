@@ -1,0 +1,52 @@
+body {
+	overflow-y: scroll;
+}
+
+.fill-scroll {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 100%;
+
+	&.with-toolbar {
+		max-height: calc(100% - 64px);
+	}
+}
+
+.edit-character-name {
+	input {
+		text-align: center;
+		font-size: 1.25rem;
+		height: 32px;
+		max-height: 32px;
+		min-height: 32px;
+		padding: 0px 16px 0px 0;
+		height: 48px;
+		max-height: 48px;
+		min-height: 48px;
+		margin-left: -25px;
+		letter-spacing: 0.25px;
+	}
+
+	& .v-field__prepend-inner {
+		padding-top: 13px;
+		padding-right: 8px;
+	}
+}
+
+.edit-initiative {
+	input {
+		text-align: right;
+		font-size: 0.875rem;
+		padding: 0;
+		height: 32px;
+		max-height: 32px;
+		min-height: 32px;
+		letter-spacing: 0.25px;
+	}
+
+	&.description {
+		input {
+			text-align: left;
+		}
+	}
+}
