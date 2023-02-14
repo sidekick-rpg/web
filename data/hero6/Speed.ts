@@ -46,6 +46,17 @@ function SortInitiatives(a, b): number {
 		return 1
 	}
 
+	if (a.segment === b.segment) {
+		// DEX
+		if (a.dex < b.dex) {
+			return 1
+		}
+
+		if (a.dex > b.dex) {
+			return -1
+		}
+	}
+
 	if (a.segment < b.segment) {
 		return -1
 	}
