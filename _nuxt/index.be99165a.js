@@ -1,0 +1,1 @@
+import{a as t,b as a,e as n,w as o,F as s,f as c,h as i,o as _,i as r}from"./entry.c102202d.js";const p=c("p",null,"Sidekick",-1),x=t({__name:"index",setup(d){return(l,m)=>{const e=i;return _(),a(s,null,[p,n(e,{to:"initiative"},{default:o(()=>[r("Initiative Tracker")]),_:1})],64)}}});export{x as default};
